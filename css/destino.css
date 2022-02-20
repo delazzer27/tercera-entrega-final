@@ -1,0 +1,191 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap");
+.tamaño {
+  width: 420px;
+  height: 450px;
+}
+
+.tamaño2 {
+  width: 380px;
+  height: 450px;
+}
+
+.tamaño3 {
+  width: 480px;
+  height: 350px;
+}
+
+.tamañoChico {
+  width: 300px;
+  height: 430px;
+}
+
+.tamañoLogo {
+  width: 100px;
+  height: 100px;
+}
+
+iframe {
+  width: 900px;
+  height: 250px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.color-nav {
+  background: #a4508b;
+}
+
+.color-body {
+  background: #eacbee;
+}
+
+.color-footer {
+  background: #a68cb8;
+}
+
+h1, h3, h2 {
+  font-weight: normal;
+  background-color: #b6acbd;
+  background-image: linear-gradient(315deg, #ad97c2 0%, #c49ebb 74%);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+
+* {
+  margin: 0;
+  text-align: justify;
+  scroll-behavior: smooth;
+}
+
+.color-nav {
+  background-image: linear-gradient(to left, #a4508b 0%, #74438b 74%);
+}
+
+body {
+  width: 100%;
+}
+
+.blanco {
+  color: #f8f2f2;
+}
+
+.mayuscula {
+  text-transform: uppercase;
+}
+
+.animate__animated.animate__fadeInLeft {
+  animation-duration: 2s;
+}
+
+.animate__animated.animate__fadeIn {
+  animation-duration: 4s;
+}
+
+a:hover {
+  color: cadetblue;
+}
+
+header section a img:hover {
+  border: solid 1px #d051e0;
+  border-radius: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: #974c8b;
+}
+
+.animate__animated.animate__fadeInDown {
+  animation-duration: 2s;
+}
+
+.colorBoton:hover {
+  background-color: #b5afb9;
+  color: #f8f2f2;
+}
+
+.fotos {
+  border: solid 10px #f8f2f2;
+  border-radius: 5px;
+}
+
+.icon {
+  border-radius: 100%;
+  color: #f8f2f2;
+}
+
+.icon-instagram {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+.icon-whatsapp {
+  background: #25d366;
+}
+
+p,
+span {
+  font-family: "Montserrat", sans-serif;
+}
+
+a.nav-link.blanco:hover {
+  color: #fdd1d1 !important;
+}
+
+.navbar li.nav-item {
+  text-transform: uppercase;
+  font-family: "Oswald";
+  letter-spacing: 0.1rem;
+}
+
+.accordion-item h2,
+.accordion-body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000000;
+  background-color: #ffdffd;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.13);
+}
+
+.accordion-body {
+  background: #cdbdd8;
+}
+
+.accordion-flush .accordion-collapse {
+  background: #cdbdd8;
+}
+
+nav .container-fluid {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-inner.sec1 {
+  margin-left: 2rem;
+}
+
+.carousel-inner.sec2 {
+  margin-left: -2rem;
+}
+
+nav .navbar-brand {
+  margin-right: 0;
+}
+
+nav p.blanco.justify-content-center {
+  text-align: center;
+}
+
+.bajar {
+  margin-bottom: -2rem;
+}
+
+/*# sourceMappingURL=destino.css.map */

@@ -1,0 +1,29 @@
+
+$estilos: (
+    grosor: normal,
+    color: #b6acbd,
+    gradiente: linear-gradient(315deg, #ad97c2 0%, #c49ebb 74%),
+    mayuscula: uppercase,
+    espacio: 2px,
+    negrita: bold,
+    centrar: center,
+);
+
+h1 {
+    font-weight: map-get($estilos, grosor);
+    background-color: map-get($estilos, color);
+    background-image: map-get($estilos, gradiente);
+    text-transform: map-get($estilos, mayuscula);
+    letter-spacing: map-get($estilos, espacio);
+    font-weight: map-get($estilos, negrita);
+    text-align: map-get($estilos, centrar);
+    font-family: $titulos, sans-serif;
+}
+
+h2 {
+    @extend h1;
+}
+
+h3 {
+    @extend h1;
+}

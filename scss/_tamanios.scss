@@ -1,0 +1,26 @@
+@mixin tamanio ($anchura, $altura) {
+    width: $anchura;
+    height: $altura;
+}
+
+.tamaño {
+    @include tamanio(420px, 450px);
+}
+.tamaño2 {
+    @include tamanio(380px, 450px);
+}
+.tamaño3 {
+    @include tamanio(480px, 350px);
+}
+.tamañoChico {
+    @include tamanio(300px, 430px);
+}
+.tamañoLogo {
+    @include tamanio(100px, 100px);
+}
+iframe {
+    @include tamanio(900px, 250px);
+}
+.icon {
+    @include tamanio(24px, 24px);
+}
