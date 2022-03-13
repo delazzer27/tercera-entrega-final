@@ -1,7 +1,8 @@
 $fondos: (
     nav: #a4508b,
     body: rgb(234, 203, 238),
-    footer: #a68cb8 
+    footer: #a68cb8,
+    hover: #fc8846e7 
 );
 @each $section, $color in $fondos {
     .color-#{$section} {
@@ -14,7 +15,13 @@ $instaColor: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transpa
 $whatColor: #25d366;
 $navGrad: linear-gradient(to left, #a4508b 0%, #74438b 74%);
 $aHoverColor: cadetblue;
+$aHoverColor2: rgb(134, 20, 20);
 $aColor: #974c8b;
-$acordionColor: #cdbdd8;
+$acordionColor: #a48abd;
 $negro: #000000;
 $acordionBotonColor: #ffdffd;
+$formColor: #ce9fc0;
+$navHoverColor: #fc8846e7;
+$botonColor: #a4508b;
+$botonColorHover: #794e6c;
+$imgColorHover: rgb(208, 81, 224);

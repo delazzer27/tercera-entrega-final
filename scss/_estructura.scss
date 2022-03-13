@@ -1,6 +1,3 @@
-
-
-
 * {
     margin: 0;
     text-align: justify;
@@ -37,7 +34,7 @@ a:hover {
 }
 
 header section a img:hover {
-    border: solid 1px rgb(208, 81, 224);
+    border: solid 1px $imgColorHover;
     border-radius: 2px;
 }
 
@@ -50,8 +47,13 @@ a {
     animation-duration: 2s;
 }
 
+.colorBoton {
+    background-color: $botonColor;
+    color: $blanco;
+}
+
 .colorBoton:hover {
-    background-color: #b5afb9;
+    background-color: $botonColorHover;
     color: $blanco;
 }
 
@@ -69,11 +71,12 @@ a {
 
 .icon-instagram {
     background: $instaColor;
-
+    font-size: 1.5rem;
 }
 
 .icon-whatsapp {
     background: $whatColor;
+    font-size: 1.5rem;
 }
 
 p,
@@ -83,7 +86,7 @@ span {
 
 
 a.nav-link.blanco:hover {
-    color: #fdd1d1 !important;
+    color: $navHoverColor !important;
 }
 
 .navbar li.nav-item {
@@ -110,8 +113,9 @@ a.nav-link.blanco:hover {
 }
 
 .accordion-flush .accordion-collapse {
-    background: $acordionColor; 
+    background: $acordionColor;
 }
+
 nav .container-fluid {
     display: flex;
     flex-direction: column;
@@ -133,46 +137,54 @@ nav p.blanco.justify-content-center {
     margin-bottom: -2rem;
 }
 
-.atras {
-    z-index: 1 !important;
-}
-.adelante {
-    z-index: 2 !important;
+
+header nav div div ul li a {
+    display: inline-block;
+    position: relative;
+    color: $navHoverColor;
+    text-decoration: none;
 }
 
-@media (min-width: 576px) {
-    .carousel-inner.sec1 {
-        margin-left: 2rem;
-    }
-    
-    .carousel-inner.sec2 {
-        margin-left: -2rem;
-    }
-    .desaparece {
-        display: none;
-    }
+header nav div div ul li a:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    transition: all .6s;
 }
 
-@media (max-width: 575px) {
-    .posicionMobile {
-        display: block;
-        margin: auto;
-    }
-    .tamañoMobile {
-        width: 400px;
-        height: 260px;
-        text-align:center;
-    }
-    .tamañoLetra {
-        font-size: small;
-    }
-    .formMobile {
-        width: 50% !important;
-    }
-    .formMobile2 {
-        width: 75% !important;
-    }
-    .desaparece2 {
-        display: none;
-    }
+header nav div div ul li a:hover:after {
+    width: 100%;
+    background: $navHoverColor;
 }
+
+.formAncho {
+    border-radius: 10px;
+    background: $formColor;
+    padding: 2rem;
+}
+
+.ws {
+    background: $blanco;
+}
+
+.iconFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+}
+
+.space {
+    padding-bottom: 1rem;
+}
+
+main div div div div a:hover {
+    color: $aHoverColor2 !important;
+} 
+
+.distancia3
+    {
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+    }

@@ -1,26 +1,25 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200&display=swap");
-.tamaño {
+.tamanio {
   width: 420px;
   height: 450px;
 }
 
-.tamaño2 {
+.tamanio2 {
   width: 380px;
   height: 450px;
 }
 
-.tamaño3 {
+.tamanio3 {
   width: 480px;
   height: 358px;
 }
 
-.tamañoChico {
+.tamanioChico {
   width: 300px;
   height: 430px;
 }
 
-.tamañoLogo {
+.tamanioLogo {
   width: 100px;
   height: 100px;
 }
@@ -45,6 +44,10 @@ iframe {
 
 .color-footer {
   background: #a68cb8;
+}
+
+.color-hover {
+  background: #fc8846e7;
 }
 
 h1, h3, h2 {
@@ -106,8 +109,13 @@ a {
   animation-duration: 2s;
 }
 
+.colorBoton {
+  background-color: #a4508b;
+  color: #f8f2f2;
+}
+
 .colorBoton:hover {
-  background-color: #b5afb9;
+  background-color: #794e6c;
   color: #f8f2f2;
 }
 
@@ -125,10 +133,12 @@ a {
 
 .icon-instagram {
   background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  font-size: 1.5rem;
 }
 
 .icon-whatsapp {
   background: #25d366;
+  font-size: 1.5rem;
 }
 
 p,
@@ -137,7 +147,7 @@ span {
 }
 
 a.nav-link.blanco:hover {
-  color: #fdd1d1 !important;
+  color: #fc8846e7 !important;
 }
 
 .navbar li.nav-item {
@@ -158,12 +168,12 @@ a.nav-link.blanco:hover {
 }
 
 .accordion-body {
-  background: #cdbdd8;
+  background: #a48abd;
   color: #f8f2f2;
 }
 
 .accordion-flush .accordion-collapse {
-  background: #cdbdd8;
+  background: #a48abd;
 }
 
 nav .container-fluid {
@@ -187,15 +197,57 @@ nav p.blanco.justify-content-center {
   margin-bottom: -2rem;
 }
 
-.atras {
-  z-index: 1 !important;
+header nav div div ul li a {
+  display: inline-block;
+  position: relative;
+  color: #fc8846e7;
+  text-decoration: none;
 }
 
-.adelante {
-  z-index: 2 !important;
+header nav div div ul li a:after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 0px;
+  transition: all 0.6s;
 }
 
-@media (min-width: 576px) {
+header nav div div ul li a:hover:after {
+  width: 100%;
+  background: #fc8846e7;
+}
+
+.formAncho {
+  border-radius: 10px;
+  background: #ce9fc0;
+  padding: 2rem;
+}
+
+.ws {
+  background: #f8f2f2;
+}
+
+.iconFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+}
+
+.space {
+  padding-bottom: 1rem;
+}
+
+main div div div div a:hover {
+  color: #861414 !important;
+}
+
+.distancia3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+@media (min-width: 1257px) {
   .carousel-inner.sec1 {
     margin-left: 2rem;
   }
@@ -208,32 +260,205 @@ nav p.blanco.justify-content-center {
     display: none;
   }
 }
+@media (min-width: 992px) and (max-width: 1256px) {
+  .posicionMobile2 {
+    display: block !important;
+  }
+
+  .pMobile {
+    text-align: justify;
+  }
+
+  .tamanioMobile {
+    width: 400px;
+    height: 260px;
+    text-align: center;
+  }
+
+  .tamanioLetra {
+    font-size: small;
+  }
+
+  .desaparece {
+    display: none !important;
+  }
+
+  header nav div a p {
+    margin-bottom: 0rem !important;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(../img_comprim/menu-mobile.png) !important;
+  }
+
+  .contactMobile {
+    display: block !important;
+  }
+
+  .distancia2 {
+    margin-bottom: 2rem;
+  }
+
+  iframe {
+    width: 400px !important;
+    height: 150px !important;
+  }
+
+  .tamanioH1 {
+    font-size: 28px;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .posicionMobile2 {
+    display: block !important;
+  }
+
+  .pMobile {
+    text-align: justify;
+  }
+
+  .tamanioMobile {
+    width: 400px;
+    height: 260px;
+    text-align: center;
+  }
+
+  .tamanioLetra {
+    font-size: small;
+  }
+
+  .desaparece2 {
+    display: none;
+  }
+
+  nav .container-fluid {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+  }
+
+  .tamanioLogoMobile {
+    width: 75px;
+    height: 75px;
+  }
+
+  header nav div a p {
+    margin-bottom: 0rem !important;
+  }
+
+  .ancho1 {
+    width: 45px;
+  }
+
+  .ancho2 {
+    width: 85px;
+  }
+
+  .ancho3 {
+    width: 125px;
+  }
+
+  .ancho4 {
+    width: 80px;
+  }
+
+  .ancho5 {
+    width: 75px;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(../img_comprim/menu-mobile.png) !important;
+  }
+
+  .contactMobile {
+    display: block !important;
+  }
+
+  .distancia2 {
+    margin-bottom: 2rem;
+  }
+
+  iframe {
+    width: 400px !important;
+    height: 150px !important;
+  }
+
+  .tamanioH1 {
+    font-size: 28px;
+  }
+}
 @media (max-width: 575px) {
   .posicionMobile {
     display: block;
     margin: auto;
   }
 
-  .tamañoMobile {
+  .tamanioMobile {
     width: 400px;
     height: 260px;
     text-align: center;
   }
 
-  .tamañoLetra {
+  .tamanioLetra {
     font-size: small;
-  }
-
-  .formMobile {
-    width: 50% !important;
-  }
-
-  .formMobile2 {
-    width: 75% !important;
   }
 
   .desaparece2 {
     display: none;
+  }
+
+  nav .container-fluid {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+  }
+
+  .tamanioLogoMobile {
+    width: 75px;
+    height: 75px;
+  }
+
+  header nav div a p {
+    margin-bottom: 0rem !important;
+  }
+
+  .ancho1 {
+    width: 45px;
+  }
+
+  .ancho2 {
+    width: 85px;
+  }
+
+  .ancho3 {
+    width: 125px;
+  }
+
+  .ancho4 {
+    width: 80px;
+  }
+
+  .ancho5 {
+    width: 75px;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(../img_comprim/menu-mobile.png) !important;
+  }
+
+  .contactMobile {
+    display: block !important;
+  }
+
+  .distancia2 {
+    margin-bottom: 2rem;
+  }
+
+  iframe {
+    width: 400px !important;
+    height: 150px !important;
+  }
+
+  .tamanioH1 {
+    font-size: 28px;
   }
 }
 

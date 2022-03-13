@@ -1,0 +1,216 @@
+@media (min-width: 1257px) {
+    .carousel-inner.sec1 {
+        margin-left: 2rem;
+    }
+
+    .carousel-inner.sec2 {
+        margin-left: -2rem;
+    }
+
+    .desaparece {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1256px) {
+    .posicionMobile2 {
+        display: block !important;
+    }
+    .pMobile {
+        text-align: justify;
+    }
+
+    .tamanioMobile {
+        width: 400px;
+        height: 260px;
+        text-align: center;
+    }
+
+    .tamanioLetra {
+        font-size: small;
+    }
+
+    .desaparece {
+        display: none !important;
+    }
+
+    header nav div a p {
+        margin-bottom: 0rem !important;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(../img_comprim/menu-mobile.png) !important;
+    }
+
+    .contactMobile {
+        display: block !important;
+    }
+
+    .distancia2 {
+        margin-bottom: 2rem;
+    }
+
+    iframe {
+        width: 400px !important;
+        height: 150px !important;
+    }
+
+    .tamanioH1 {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .posicionMobile2 {
+        display: block !important;
+    }
+    .pMobile {
+        text-align: justify;
+    }
+
+    .tamanioMobile {
+        width: 400px;
+        height: 260px;
+        text-align: center;
+    }
+
+    .tamanioLetra {
+        font-size: small;
+    }
+
+    .desaparece2 {
+        display: none;
+    }
+
+    nav .container-fluid {
+        display: flex !important;
+        flex-direction: row-reverse !important;
+    }
+
+    .tamanioLogoMobile {
+        width: 75px;
+        height: 75px;
+    }
+
+    header nav div a p {
+        margin-bottom: 0rem !important;
+    }
+
+    .ancho1 {
+        width: 45px;
+    }
+
+    .ancho2 {
+        width: 85px;
+    }
+
+    .ancho3 {
+        width: 125px;
+    }
+
+    .ancho4 {
+        width: 80px;
+    }
+
+    .ancho5 {
+        width: 75px;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(../img_comprim/menu-mobile.png) !important;
+    }
+
+    .contactMobile {
+        display: block !important;
+    }
+
+    .distancia2 {
+        margin-bottom: 2rem;
+    }
+
+    iframe {
+        width: 400px !important;
+        height: 150px !important;
+    }
+
+    .tamanioH1 {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .posicionMobile {
+        display: block;
+        margin: auto;
+    }
+
+    .tamanioMobile {
+        width: 400px;
+        height: 260px;
+        text-align: center;
+    }
+
+    .tamanioLetra {
+        font-size: small;
+    }
+
+    .desaparece2 {
+        display: none;
+    }
+
+    nav .container-fluid {
+        display: flex !important;
+        flex-direction: row-reverse !important;
+    }
+
+    .tamanioLogoMobile {
+        width: 75px;
+        height: 75px;
+    }
+
+    header nav div a p {
+        margin-bottom: 0rem !important;
+    }
+
+    .ancho1 {
+        width: 45px;
+    }
+
+    .ancho2 {
+        width: 85px;
+    }
+
+    .ancho3 {
+        width: 125px;
+    }
+
+    .ancho4 {
+        width: 80px;
+    }
+
+    .ancho5 {
+        width: 75px;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(../img_comprim/menu-mobile.png) !important;
+    }
+
+    .contactMobile {
+        display: block !important;
+    }
+
+    .distancia2 {
+        margin-bottom: 2rem;
+    }
+
+    iframe {
+        width: 400px !important;
+        height: 150px !important;
+    }
+
+    .tamanioH1 {
+        font-size: 28px;
+    }
+}
