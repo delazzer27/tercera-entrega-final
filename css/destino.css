@@ -247,6 +247,11 @@ main div div div div a:hover {
   margin-right: 0.75rem;
 }
 
+footer {
+  height: 80px;
+  padding-bottom: 1rem !important;
+}
+
 @media (min-width: 1257px) {
   .carousel-inner.sec1 {
     margin-left: 2rem;
@@ -393,8 +398,8 @@ main div div div div a:hover {
   }
 
   .tamanioMobile {
-    width: 400px;
-    height: 260px;
+    width: 280px;
+    height: 180px;
     text-align: center;
   }
 
@@ -453,12 +458,41 @@ main div div div div a:hover {
   }
 
   iframe {
-    width: 400px !important;
-    height: 150px !important;
+    width: 300px !important;
+    height: 200px !important;
   }
 
   .tamanioH1 {
     font-size: 28px;
+  }
+
+  .tamanio4 {
+    width: 300px !important;
+    height: 210px !important;
+  }
+
+  .tamanio5 {
+    width: 230px;
+    height: 300px;
+  }
+
+  .tamanio6 {
+    width: 290px;
+    height: 360px;
+  }
+
+  .tamanio7 {
+    width: 290px;
+    height: 310px;
+  }
+
+  footer {
+    height: 200px !important;
+  }
+
+  .footerPosicion {
+    position: relative;
+    bottom: 30px;
   }
 }
 
