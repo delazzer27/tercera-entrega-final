@@ -280,10 +280,6 @@ footer {
     text-align: center;
   }
 
-  .tamanioLetra {
-    font-size: small;
-  }
-
   .desaparece {
     display: none !important;
   }
